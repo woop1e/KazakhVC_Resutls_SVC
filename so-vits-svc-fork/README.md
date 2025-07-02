@@ -9,7 +9,12 @@ This repository contains experiment results and inference outputs for **Kazakh V
 
 ```
 KazakhVC_Resutls_SVC/
-├── Apps(named)/             # Audio outputs (inference results: converted wav files, etc.)
+├── Apps(named)/         # Audio outputs (inference results: converted wav files, etc.)
+      ├──model files/    # (300pt 500pt 2000pt so on depending on epoch stages)
+          ├──config.json
+          ├──D_epochNumber.pt
+          ├──G_epochNumber.pt
+      ├──Dataset/        # For some apps uploaded datasets used to train models       
 ├── README.md            # This file
 ```
 
@@ -20,7 +25,7 @@ KazakhVC_Resutls_SVC/
 All trained `.pt` model checkpoint files will be uploaded to Hugging Face.
 
 👉 **Hugging Face Model Repository Link:**  
-[PLACE_HUGGINGFACE_LINK_HERE](#)
+[LINK](https://huggingface.co/woop1e/KazakhVC_models)
 
 ---
 
